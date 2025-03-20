@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Chart Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .chart-container {
+            width: 45%; /* Adjust size */
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chart-container"><canvas id="chart1"></canvas></div>
+    <div class="chart-container"><canvas id="chart2"></canvas></div>
+    <div class="chart-container"><canvas id="chart3"></canvas></div>
+    <div class="chart-container"><canvas id="chart4"></canvas></div>
+    <script src="scripts.js"></script>
+</body>
+</html>
